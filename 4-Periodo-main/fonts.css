@@ -1,0 +1,16 @@
+h1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;  
+    font-size: 40px;
+}
+
+p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;   
+    font-size: 12px;
+    text-align: justify;
+}

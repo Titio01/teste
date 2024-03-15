@@ -1,0 +1,42 @@
+:root{
+    --cor-base: #333;
+    --cor-fundo-img: #f2eded;
+    --cor-borda-img: #ccc;
+}
+body{
+    color: var(--cor-base);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+    width: 940px;  
+    margin: auto;
+}
+
+h1{
+    background-image: url(../img/sobre-background.jpg);
+    padding: 10px;
+}
+
+h2{
+    border-bottom: 2px groove var(--cor-base); 
+    margin-top: 30px;   
+}
+
+figure{
+    background-color: var(--cor-fundo-img);
+    border: 1px solid var(--cor-borda-img);
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+p {
+    padding: 0 45px;
+    text-indent: 25px;
+    text-align: justify;
+}
